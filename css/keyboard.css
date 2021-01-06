@@ -16,7 +16,7 @@ h2 {
 .kbd-container {
   display: grid;
   grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: repeat(3, 0.5fr) 1fr;
+  grid-template-rows: repeat(5, 1fr);
   background-color: #87ceeb;
   gap: 5px;
   padding: 10px;
@@ -34,7 +34,8 @@ h2 {
   color: green;
 }
 .space {
-  text-align: center;
+  grid-column: span 3/8;
+  padding: 15px;
 }
 /*footer*/
 footer p.author-lign {
