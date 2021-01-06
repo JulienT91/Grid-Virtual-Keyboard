@@ -1,1 +1,10 @@
-
+.kbd-container {
+  background-color: #000;
+}
+.kbd-key {
+  border: 1px solid #20a548;
+  color: #20a548;
+}
+#led-circle {
+  color: #20a548;
+}
